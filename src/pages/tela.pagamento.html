@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Carros</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Minha CSS -->
+    <link rel="stylesheet" href="/src/css/tela.pagamento.css">
+
+</head>
+<body>
+    <header>
+        <div class="d-flex justify-content-between header">
+            <div>
+                <p class="hora">Hora</p>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-signal pe-1 fa-xs"></i>
+                <i class="fa-solid fa-wifi pe-1 fa-xs"></i>
+                <i class="fa-solid fa-battery-full pe-1 fa-xs"></i>
+            </div>
+        </div>
+    </header>
+    <section >
+        <div class="d-flex justify-content-between ms-3 me-4 mb-1">
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-circle-info fa-xl m-1"></i>
+                <p class="m-1">Mais informações</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <i class="fa-solid fa-bell fa-xl"></i>
+            </div>
+            
+        </div>
+        <div class="d-flex m-2">
+            <h1 class="m-1 ms-3">Carteira</h1>
+        </div>
+        <div class="forma-pagamentos">
+            <div class="d-flex align-items-center m-2 txt-cartoes">
+                <h5 class="m-1 ms-3">Formas de Pagamento</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <ul class="list-group list-group-horizontal mb-2">
+                    <li class="pgto-card">
+                        <i class="fa-brands fa-pix d-flex justify-content-center mb-1"></i>
+                        <p class="d-flex justify-content-center ">PIX</p>
+                    </li>
+                    <li class="pgto-card">
+                        <i class="fa-solid fa-credit-card d-flex justify-content-center mb-1"></i>
+                        <p class="d-flex justify-content-center">CARTÃO</p>
+                    </li>
+                    <li class="pgto-card">
+                        <i class="fa-solid fa-users d-flex justify-content-center mb-1"></i>
+                        <p class="d-flex justify-content-center">FIDELIDADE</p>
+                    </li>
+                    <li class="pgto-card">
+                        <i class="fa-solid fa-gift d-flex justify-content-center mb-1"></i>
+                        <p class="d-flex justify-content-center">GIFT</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="txt-cartoes">
+                <h5 class="m-1 ms-3">Meus Cartões</h5>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide mb-2">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/src/assets/images/SantanderUnlimitedMastercardBlack.jpg" class="credit-card" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/src/assets/images/Platinum-fisico.png" class="credit-card" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/src/assets/images/cartao-facil-santander-sx.png" class="credit-card" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="ms-4">
+            <ul class="list-group">
+                <li class="lista-servicos">
+                    <i class="fa-solid fa-heart me-2"></i>
+                    Envie um presente para um amigo</li>
+                <li class="lista-servicos">
+                    <i class="fa-solid fa-rectangle-list me-2"></i>
+                    Histórico de Pagamentos</li>
+                <li class="lista-servicos">
+                    <i class="fa-solid fa-shield-halved me-2"></i>
+                    Checagem de Segurança</li>
+                <li class="lista-servicos">
+                    <i class="fa-solid fa-circle-dollar-to-slot me-2"></i>
+                    Política de Reembolso</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="footer-buttons d-flex justify-content-center">
+            <ul class="list-group list-group-horizontal ">
+                <li class="footer">
+                    <i class="fa-solid fa-house fa-2xl d-flex justify-content-center mb-1"></i>
+                    <p class="d-flex justify-content-center mt-2">Home</p>
+                </li>
+                <li class="footer">
+                    <i class="fa-solid fa-magnifying-glass fa-2xl d-flex justify-content-center mb-1"></i>
+                    <p class="d-flex justify-content-center mt-2">Buscar</p>
+                </li>
+                <li class="footer">
+                    <i class="fa-solid fa-credit-card fa-2xl d-flex justify-content-center mb-1"></i>
+                    <p class="d-flex justify-content-center mt-2">Pagamento</p>
+                </li>
+                <li class="footer">
+                    <i class="fa-solid fa-user fa-2xl d-flex justify-content-center mb-1"></i>
+                    <p class="d-flex justify-content-center mt-2">Perfil</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- BS-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

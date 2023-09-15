@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    
+}
+
+.header {
+    margin: .5rem .6rem 0 .6rem;
+}
+
+.hora {
+    font-size: .8rem;
+}
+
+.pgto-card {
+    margin: .2rem;
+    padding-top: .8rem;
+    font-size: .7rem;
+    width: 5rem;
+    height: 4.5rem;
+    border: .1rem solid grey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pgto-card:hover {
+    box-shadow: 0 0 5px #2b3249;
+    border: .1rem solid black;
+}
+
+.li-pgto {
+    width: 100%;
+}
+
+.credit-card {
+    max-width: 60%;
+    margin-top: .5rem;
+    margin-left: 20%;
+}
+
+.lista-servicos {
+    margin-top: .5rem;
+}
+
+.lista-servicos:hover {
+    text-decoration: underline 2px;
+}
+
+.footer {
+    margin: .2rem;
+    margin-top: 1.8rem;
+    font-size: .7rem;
+    width: 5rem;
+    height: auto;
+    max-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer:hover {
+    text-decoration: underline 2px;
+}
+
+@media screen and (min-width: 470px) {
+    .pgto-card {
+        margin: .5rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .pgto-card {
+        margin: .8rem;
+    }
+
+    .credit-card {
+        max-width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        visibility: hidden;
+    }
+
+    .txt-cartoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .credit-card {
+        max-width: 25%;
+        margin-left: 38%;
+    }
+
+    .list-group{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
