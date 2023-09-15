@@ -8,6 +8,11 @@ li {
     
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .header {
     margin: .5rem .6rem 0 .6rem;
 }
