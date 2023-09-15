@@ -112,6 +112,10 @@ a {
     justify-content: center;
     }
 
+    .carousel-control-next, .carousel-control-prev{
+        width: 35%;
+    }
+
     .credit-card {
         max-width: 25%;
         margin-left: 38%;
