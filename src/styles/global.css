@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: rgb(82, 186, 255);
+}
+
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+.footer {
+    margin: .2rem;
+    margin-top: 1.8rem;
+    font-size: .7rem;
+    width: 5rem;
+    height: auto;
+    max-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer:hover {
+    text-decoration: underline 2px;
+}  
