@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 li {
     list-style: none;
     
@@ -26,9 +30,23 @@ nav {
     margin-bottom: .3rem;
 }
 
-
 body {
     font-family: 'Signika', sans-serif;
+}
+
+.btn-cadastro {
+    background-color: #0134cb;
+    color: white;
+}
+
+.btn-login {
+    background-color: #12d7c1;
+    color: white;
+}
+
+.btn-cadastro:hover, .btn-login:hover {
+    background-color: black;
+    color: white;
 }
 
 .footer {
@@ -48,6 +66,12 @@ body {
     text-decoration: underline 2px;
 }  
 
+@media screen and (min-width: 430px) {
+    .titulo-index {
+        padding: 1rem .5rem .5rem .5rem;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .info {
         margin-left: 15.5%;
@@ -55,6 +79,24 @@ body {
 
     .notify {
         margin-right: 15%;
+    }
+
+    .titulo-index {
+        text-align: center;
+        padding: 1rem 0 .5rem 0;
+    }
+
+    .btn-cadastro {
+        padding: .5rem 6rem;
+    }
+    
+    .btn-login {
+        padding: .5rem 6rem;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -65,5 +107,23 @@ body {
 
     .notify {
         margin-right: 25%;
+    }
+
+    .titulo-index {
+        text-align: center;
+        padding: 2rem 0 1rem 0;
+    }
+
+    .btn-cadastro {
+        padding: .5rem 6rem;
+    }
+    
+    .btn-login {
+        padding: .5rem 6rem;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
     }
 }
