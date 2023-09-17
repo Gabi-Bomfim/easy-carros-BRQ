@@ -2,8 +2,12 @@
     margin: .5rem .6rem 0 .6rem;
 }
 
-.hora {
+/* .hora {
     font-size: .8rem;
+} */
+
+.carteira {
+    margin-left: 1rem;
 }
 
 .pgto-card {
@@ -50,6 +54,17 @@
 }
 
 @media screen and (min-width: 600px) {
+    .carteira {
+        margin-left: 2.9rem;
+    }
+
+    .txt-cartoes {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
     .pgto-card {
         margin: .8rem;
     }
@@ -58,11 +73,32 @@
         max-width: 50%;
         margin-left: 25%;
     }
+
+    .list-group{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .lista-servicos {
+        margin: 0 1rem 0 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .header {
         visibility: hidden;
+    }
+
+    .carteira {
+        margin-left: 2.9rem;
+    }
+
+    .txt-cartoes {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 
     .pgto-card {
@@ -80,6 +116,10 @@
 
     .list-group{
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
+    }
+
+    .lista-servicos {
+        margin: 0 1rem 0 0;
     }
 }
