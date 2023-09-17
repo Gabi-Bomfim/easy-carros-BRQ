@@ -45,7 +45,7 @@ body {
 }
 
 .footer:hover {
-    text-decoration: underline 2px black;
+    text-decoration: underline 2px;
 }  
 
 @media screen and (min-width: 600px) {
