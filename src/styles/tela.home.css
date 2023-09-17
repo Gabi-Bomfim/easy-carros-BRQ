@@ -1,5 +1,13 @@
 .search-button {
     width: 80%;
+    margin: .5rem 0 .5rem 0;
+}
+
+.search-button-input::placeholder {
+    background: url("../assets/images/magnifying-glass-solid.svg") no-repeat;
+    background-position: 0.5em;
+    padding-left: 2.2rem;
+
 }
 
 @media screen and (min-width: 992px) {
