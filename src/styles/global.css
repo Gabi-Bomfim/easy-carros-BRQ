@@ -17,6 +17,10 @@ nav {
     background-color: rgb(82, 186, 255);
 }
 
+.nav-web{
+    margin-bottom: .3rem;
+}
+
 
 body {
     font-family: 'Signika', sans-serif;
