@@ -69,13 +69,6 @@
         padding-top: 1.1rem;
     }
 
-    .txt-cartoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-
     .carousel-control-next, .carousel-control-prev{
         width: 35%;
     }

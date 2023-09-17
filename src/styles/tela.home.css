@@ -11,6 +11,18 @@
     padding-left: 2.2rem;
 }
 
+.info{
+    margin-left: 5%;
+}
+
+.notify {
+    margin-right: 5%;
+}
+
+.enders {
+    margin-left: 5%;
+}
+
 .ender {
     margin-top: .3rem;
     font-weight: bold;
@@ -23,8 +35,92 @@
     padding-bottom: .5rem;
 }
 
-@media screen and (min-width: 992px) {
+.p-card {
+    font-size: .8rem;
+    margin: 0;
+}
+
+.img-card {
+    margin-top: .9rem;
+}
+
+@media screen and (min-width: 470px) {
+    .enders {
+        flex-direction: column;
+    }
+
+    .img-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-card {
+        margin: 0 1rem 0 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
     .search-button {
         width: 50%;
+    }
+
+    .enders {
+        margin-top: 1rem;
+    }
+
+    .img-card {
+        margin-top: .9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-card {
+        margin: 0 1rem 0 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .search-button {
+        width: 50%;
+    }
+
+    .enders {
+        margin-top: 1rem;
+    }
+
+    .img-card {
+        margin-top: .9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-card {
+        margin: 0 1rem 0 1rem;
     }
 }

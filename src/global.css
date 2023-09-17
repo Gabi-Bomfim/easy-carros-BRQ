@@ -47,3 +47,23 @@ body {
 .footer:hover {
     text-decoration: underline 2px;
 }  
+
+@media screen and (min-width: 600px) {
+    .info {
+        margin-left: 15.5%;
+    }
+
+    .notify {
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .info {
+        margin-left: 25.5%;
+    }
+
+    .notify {
+        margin-right: 25%;
+    }
+}
