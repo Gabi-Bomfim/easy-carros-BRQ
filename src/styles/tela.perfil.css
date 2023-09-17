@@ -1,3 +1,17 @@
+.header-profile {
+    color: white;
+}
+
+.teste {
+    background-image: linear-gradient(to bottom, black 0, black 65%, white 35%);
+}
+
+.profile-img {
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+
 .btn-atualizar {
     background-color: black;
     color: white;
