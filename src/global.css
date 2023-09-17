@@ -86,11 +86,7 @@ body {
         padding: 1rem 0 .5rem 0;
     }
 
-    .btn-cadastro {
-        padding: .5rem 6rem;
-    }
-    
-    .btn-login {
+    .btn-cadastro, .btn-login,.btn-atualizar {
         padding: .5rem 6rem;
     }
 
@@ -114,11 +110,7 @@ body {
         padding: 2rem 0 1rem 0;
     }
 
-    .btn-cadastro {
-        padding: .5rem 6rem;
-    }
-    
-    .btn-login {
+    .btn-cadastro, .btn-login,.btn-atualizar {
         padding: .5rem 6rem;
     }
 

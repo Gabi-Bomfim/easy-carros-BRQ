@@ -1,0 +1,21 @@
+.btn-atualizar {
+    background-color: black;
+    color: white;
+    padding: .5rem 6rem;
+}
+
+.btn-atualizar:hover {
+    background-color:  rgb(82, 186, 255);
+    color: white;
+}
+
+input:invalid {
+    border: 2px inset red;
+}
+
+@media screen and (min-width: 800px) {
+    .btn-atualizar {
+        background-color: black;
+        color: white;
+    }
+}

@@ -18,7 +18,20 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg nav-web">
+        <div class="d-flex justify-content-between m-3">
+            <div>
+                <i class="fa-solid fa-arrow-left fa-xl"></i>
+            </div>
+            <div>
+                <h5>Editar Perfil</h5>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear fa-xl"></i>
+            </div>
+        </div>
+
+        
+        <!-- <nav class="navbar navbar-expand-lg nav-web">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/src/pages/tela.home.html">Easy Carros</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +60,54 @@
                     </ul>
                     <form class="d-flex" role="search" action="../index.html">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                    <button class="btn btn-outline-primary " type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
+
+    <section>
+        <div class="d-grid gap-2 col-10 mx-auto mt-2">
+            <form action="#" class="d-grid gap-2 mt-2 botoes">
+
+                <div class="mb-1">
+                    <label for="user" class="form-label fs-5">Usuário</label>
+                    <input type="text" class="form-control form-area rounded-pill" id="user"
+                        placeholder="Seu_nome_aqui" required>
+                </div>
+
+                <div class="mb-1">
+                    <label for="email" class="form-label fs-5">Email</label>
+                    <input type="email" class="form-control form-area rounded-pill" id="email"
+                        placeholder="name@example.com" required>
+                </div>
+
+                <div class="mb-1">
+                    <label for="tel" class="form-label fs-5">Telefone</label>
+                    <input type="tel" class="form-control form-area rounded-pill" id="tel"
+                        placeholder="+55 11 99999-9999" required>
+                </div>
+
+                <div class="mb-1">
+                    <label for="senha" class="form-label fs-5">Senha</label>
+                    <input type="password" class="form-control form-area rounded-pill" id="senha"
+                        placeholder="******" required>
+                </div>
+
+                <div class="container d-flex justify-content-center my-5">
+                    <button class="btn btn-atualizar rounded-pill" type="submit">Atualizar</button>
+                </div>
+            </form>
+        </div>
+
+
+        <!-- <div class="d-grid gap-2 col-6 mx-auto mt-2">
+            <form action="#" class="d-grid gap-2 mt-2 botoes">
+                <button class="btn btn-atualizar rounded-pill" type="submit">Atualizar</button>
+            </form>
+        </div> -->
+    </section>
 
     <footer>
         <div class="footer-buttons d-flex justify-content-center">
