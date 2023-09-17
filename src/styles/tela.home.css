@@ -1,3 +1,5 @@
+@import url("../styles/tela.pagamento.css");
+
 .search-button {
     width: 80%;
     margin: .5rem 0 .5rem 0;
@@ -7,7 +9,18 @@
     background: url("../assets/images/magnifying-glass-solid.svg") no-repeat;
     background-position: 0.5em;
     padding-left: 2.2rem;
+}
 
+.ender {
+    margin-top: .3rem;
+    font-weight: bold;
+}
+
+.cep {
+    margin-top: -.8rem;
+    color: #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: .5rem;
 }
 
 @media screen and (min-width: 992px) {
