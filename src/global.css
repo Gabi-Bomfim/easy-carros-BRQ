@@ -1,7 +1,7 @@
-@import url("../styles/tela.home.css");
-@import url("../styles/tela.busca.css");
-@import url("../styles/tela.pagamento.css");
-@import url("../styles/tela.perfil.css");
+@import url("./styles/tela.home.css");
+@import url("./styles/tela.busca.css");
+@import url("./styles/tela.pagamento.css");
+@import url("./styles/tela.perfil.css");
 
 * {
     margin: 0;
